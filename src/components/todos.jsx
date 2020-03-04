@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import fetchUsers from '../util/users_util';
 import fetchTodos from '../util/todos_util';
+import * as sortUtil from '../util/sort_util';
 
 const USERSAPI = `https://jsonplaceholder.typicode.com/users`
 const TODOSAPI = `https://jsonplaceholder.typicode.com/todos`
